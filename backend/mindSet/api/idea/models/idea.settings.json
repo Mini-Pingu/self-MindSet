@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ideas",
+  "info": {
+    "name": "idea"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
